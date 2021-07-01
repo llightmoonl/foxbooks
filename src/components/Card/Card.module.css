@@ -1,0 +1,77 @@
+.maincontent{
+	height: 570px;
+	max-width: 100%;
+	position: relative;
+}
+
+.imgmaincontent img{
+	min-width: 300px;
+	max-width: 300px;
+
+	min-height: 438px;
+	max-height: 438px;
+	border-radius: 10px;
+}
+
+.likemaincontent{
+	top:15px;
+	right:15px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.likemaincontent img{
+	width: 40px;
+}
+
+.infomaincontent{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.textmaincontent{
+	cursor: pointer;
+}
+
+.textmaincontent:hover{
+	color:orange;
+}
+
+.artistmaincontent{
+	color: #999999;
+}
+
+.buymaincontent{
+	display: flex;
+	justify-content: space-between;
+}
+
+.pricemaincontent{
+	font-weight: bold;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.buttonmainprops{
+	padding-top: 10px;
+}
+
+.buttonmaincontent{
+	height: 35px;
+	width: 60px;
+	background: orange;
+	border: 0;
+	cursor: pointer;
+	border-radius: 2px;	
+}
+.buttonmaincontent:hover{
+	height: 35px;
+	width: 60px;
+	background: black;
+	border: 0;
+	cursor: pointer;	
+}
+
+.imgbuttoncontent{
+	width: 25px;
+}
