@@ -23,7 +23,7 @@ function Card({id,imageURL, title, artist, price, onPlus}){
 	    </div>
 
 	    <div className = {styles.likemaincontent}>
-		    <img onClick = {onClickLike} src = {isLike ? "/contents/interface/like-count-active.png" : "/contents/interface/like-count.png"} alt = "like"/>
+		    <img onClick = {onClickLike} src = {isLike ? "contents/interface/like-count-active.png" : "/contents/interface/like-count.png"} alt = "like"/>
 	    </div>
 
         <div className = {styles.infomaincontent}>
@@ -35,7 +35,7 @@ function Card({id,imageURL, title, artist, price, onPlus}){
 		    <div className = {styles.pricemaincontent}>{price} ₽</div>
 		    <div className = {styles.buttonmainprops}>
 		        <button className = {styles.buttonmaincontent} >
-			        <img onClick = {onClickPlus} className = {styles.imgbuttoncontent} src = "/contents/interface/cart-button.png" alt = "cart-button"/>
+			        <img onClick = {onClickPlus} className = {styles.imgbuttoncontent} src = "contents/interface/cart-button.png" alt = "cart-button"/>
 			    </button>
 		    </div>
 	    </div>
