@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/foxbooks/static/css/main.39e058ba.chunk.css",
-    "main.js": "/foxbooks/static/js/main.5ba608e3.chunk.js",
-    "main.js.map": "/foxbooks/static/js/main.5ba608e3.chunk.js.map",
+    "main.js": "/foxbooks/static/js/main.cb6c2445.chunk.js",
+    "main.js.map": "/foxbooks/static/js/main.cb6c2445.chunk.js.map",
     "runtime-main.js": "/foxbooks/static/js/runtime-main.083f95de.js",
     "runtime-main.js.map": "/foxbooks/static/js/runtime-main.083f95de.js.map",
     "static/js/2.573aa0ed.chunk.js": "/foxbooks/static/js/2.573aa0ed.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.083f95de.js",
     "static/js/2.573aa0ed.chunk.js",
     "static/css/main.39e058ba.chunk.css",
-    "static/js/main.5ba608e3.chunk.js"
+    "static/js/main.cb6c2445.chunk.js"
   ]
 }
