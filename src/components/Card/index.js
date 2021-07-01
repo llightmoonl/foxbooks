@@ -23,7 +23,7 @@ function Card({id,imageURL, title, artist, price, onPlus}){
 	    </div>
 
 	    <div className = {styles.likemaincontent}>
-		    <img onClick = {onClickLike} src = {isLike ? "contents/interface/like-count-active.png" : "/contents/interface/like-count.png"} alt = "like"/>
+		    <img onClick = {onClickLike} src = {isLike ? "contents/interface/like-count-active.png" : "contents/interface/like-count.png"} alt = "like"/>
 	    </div>
 
         <div className = {styles.infomaincontent}>
